@@ -1,18 +1,18 @@
+import { FC, CSSProperties } from 'react'
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import { FC } from 'react'
 
-interface TodoProps {
+interface Props {
   text: string;
   href: string;
 }
 
-const style = {
+const style:CSSProperties = {
   color: "#0070F3",
-  textDecoration: "underline"
+  textDecoration: "underline",
 }
 
-const ActiveLink:FC<TodoProps> = ({ text, href }) => {
+const ActiveLink:FC<Props> = ({ text, href }) => {
   const { asPath } = useRouter();
 
   return (
