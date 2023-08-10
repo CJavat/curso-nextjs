@@ -1,15 +1,15 @@
 import { MainLayout } from '@/components/layouts/MainLayout'
 
-export default function HomePage() {
+export default function ContactPage() {
   return (
     <MainLayout>
       <h1 className={'title'}>
-        Home Page
+        Contact Page
       </h1>
       
       <p className={'description'}>
         Get started by editing&nbsp;
-        <code className={'code'}>pages/index.tsx</code>
+        <code className={'code'}>pages/about.tsx</code>
       </p>
     </MainLayout>
   )

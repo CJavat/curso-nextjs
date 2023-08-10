@@ -4,7 +4,7 @@ export default function HomePage() {
   return (
     <MainLayout>
       <h1 className={'title'}>
-        Home Page
+        Pricing Page
       </h1>
       
       <p className={'description'}>
