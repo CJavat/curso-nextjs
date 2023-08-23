@@ -2,8 +2,9 @@ import { ChangeEvent, useContext, useState } from 'react';
 import { TextField, Box, Button } from '@mui/material';
 import SaveOutlinedIcon from '@mui/icons-material/SaveOutlined';
 import AddIcon from '@mui/icons-material/AddCircleOutlineOutlined';
-import { EntriesContext } from '../entries';
-import { UIContext } from '.';
+import { UIContext } from '@/context/ui';
+import { EntriesContext } from '@/context/entries';
+
 
 export const NewEntry = () => {
   const { isAddingEntry, setIsAddingEntry } = useContext( UIContext );
